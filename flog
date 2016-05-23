@@ -14,7 +14,7 @@ fi
 
 logfile=$1
 
-#grep 'Failed password for ' $logfile >s1out;
+grep 'Failed password for ' $logfile >s1out;
 
 #sed -n 's/.*Failed password for \([a-z0-9A-Z_]*\) .*/\1/p' $logfile >s2out
 
