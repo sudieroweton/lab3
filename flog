@@ -1,0 +1,12 @@
+#Sudie Roweton
+#Lab 3 - Failed Login Report
+#CS 3030 - Scripting
+
+#Test for correct number of arguments
+
+num_expected_args=1;
+
+if [ $# -ne $num_expected_args ]; then
+	echo "Usage: flog LOGFILE"
+	exit 1;
+fi
